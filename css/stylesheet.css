@@ -1,0 +1,170 @@
+body 
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #f8c4c4;
+}
+
+.container 
+{   margin-left: 1.5em;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 13px 13px 20px #ff14c4,
+              -13px -13px 20px #000000; 
+}
+.content 
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row button 
+{
+    
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #ffff;
+}
+
+.calculator{
+    text-align: center;
+    margin: 5 auto;
+    padding-top: 50px;
+    width: 300px;
+}
+.calculator-screen{
+    border-radius: 8px;
+    margin: 5px;
+    width: 95%;
+    height: 45px;
+    background-color: #252525;
+    color:#fff;
+    text-align: right;
+    font-size: 36px;
+    border:none; 
+    padding:0 20px;
+    box-sizing: border-box;
+}
+.calculator-keys{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+button{
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size:32px;
+    color:#fff;
+    width: 25%;
+    outline:none;
+}
+.zero-btn{
+    width: 25%;
+}
+.all-clear{
+    background: #ff14c4;
+    color: #fff;
+}
+
+.all-clear:hover 
+{
+      
+    box-shadow: inset 5px 5px 8px #f1e9ed,
+    inset -5px -5px 8px #f1e9ed;
+    background-color: rgb(0, 0, 0);
+}
+.backspace{
+    background: #ff14c4;
+    color: #fff;
+}
+.backspace:hover 
+{
+      
+    box-shadow: inset 5px 5px 8px #f1e9ed,
+    inset -5px -5px 8px #f1e9ed;
+    background-color: rgb(0, 0, 0);
+}
+
+.operator, .equal-sign{
+    background-color: rgb(255, 20, 196);
+}
+button 
+{
+    background: #423f41;
+    color: #fff;
+
+}
+button:hover{
+    background-color: #ff14c4;
+    box-shadow: inset 5px 5px 8px #f1e9ed,
+    inset -5px -5px 8px #f1e9ed;
+}
+.operator:hover, .equal-sign:hover{
+    background-color: rgb(0, 0, 0);
+}
+.percentage
+{
+    background: #ff14c4;
+    color: #fff;
+}
+.percentage:hover 
+{   
+      box-shadow: inset 5px 5px 8px #f1e9ed,
+                  inset -5px -5px 8px #f1e9ed;
+                  background-color: rgb(0, 0, 0);
+}
+h2  
+{
+    font-size: 20px;
+    position: center;  
+    bottom: 1em; 
+    margin-left: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff14c4;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000,
+                    1px 1px 2px #000000,
+                    3px 3px 3px #000000,
+                    4px 4px 4px #000000,
+                    5px 5px 5px #000000, 
+                    6px 6px 6px #000000,
+                    7px 7px 7px #000000,
+                    8px 8px 8px #000000;
+                    letter-spacing: 4px;
+}
+
+h2 span
+{
+color: #000000;
+font-size: 20px;
+text-shadow: 1px 1px 1px #ff14c4,
+                1px 1px 2px #ff14c4,
+                3px 3px 3px #ff14c4,
+                4px 4px 4px #ff14c4,
+                5px 5px 5px #ff14c4, 
+                6px 6px 6px #ff14c4 ;    
+}
+
+h2 .fa
+{
+    position: absolute; 
+    top: 1.5em;
+    color: #ff14c4;
+
+}
